@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Hosted-Website Link : https://album-collection-react.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Albums List React App
 
-## Available Scripts
+This project is a web application built with React.js that allows users to manage and view a list of albums. Users can add new albums, delete existing ones, and view details of each album.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **View Albums:** Browse through a list of albums with their respective details such as title, artist, release year, and genre.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Add Album:** Add a new album to the list by providing the title, artist, release year, and genre.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Delete Album:** Remove an album from the list.
 
-### `npm test`
+- **Album Details:** Click on an album to view its detailed information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Before you start, ensure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:** Start by cloning this repository to your local machine:
 
-### `npm run eject`
+   ```shell
+   git clone https://github.com/shivraj0002/albums-collection-react.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navigate to the Project Directory:** Change your current directory to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```shell
+   cd albums-list-react-app
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install Dependencies:** Install the project dependencies using npm or yarn:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```shell
+   npm install
+   ```
 
-## Learn More
+   or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```shell
+   yarn install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Start the Development Server:** After the installation is complete, you can start the development server:
 
-### Code Splitting
+   ```shell
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **View Albums:** The app will display a list of albums on the home page. Click on any album to view its details.
 
-### Making a Progressive Web App
+- **Add Album:** To add a new album, click the "Add Album" button on the home page. Fill out the form with the album's title, artist, release year, and genre, then click "Add" to add it to the list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Delete Album:** To delete an album, click the "Delete" button next to the album you want to remove.
 
-### Advanced Configuration
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The project is organized as follows:
 
-### Deployment
+- `src/`: Contains the source code for the React application.
+  - `components/`: Contains React components used in the app.
+  - `App.js`: The main application component.
+  - `index.js`: Entry point for the React application.
+- `public/`: Contains static assets like HTML and images.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+If you'd like to contribute to this project, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository on GitHub.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your feature or bug fix.
+4. Make your changes and commit them with descriptive commit messages.
+5. Push your changes to your forked repository.
+6. Create a pull request from your forked repository to the original repository.
+
+## License
+
+This project is licensed under the MIT License.
+## Acknowledgments
+
+- This project was built with React.js, a JavaScript library developed by Facebook.
+- The icons used in the project are from [FontAwesome](https://fontawesome.com/).
+- Special thanks to the open-source community for providing invaluable resources and inspiration.
